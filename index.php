@@ -294,7 +294,7 @@
                               
                                 <div class="item-img">
                                  
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/<?php echo $row_dsach_loai1['Hinh1'];?>" alt="Sample Product"></a>
+                                  <div class="item-img-info"><a href="product_detail.php?id_sp=<?php echo $row_dsach_loai1['idSP'];?>" title="Sample Product" class="product-image"><img src="products-images/<?php echo $row_dsach_loai1['Hinh1'];?>" alt="Sample Product"></a>
                                     <div class="item-box-hover">
                                       <div class="box-inner">
                                         <div class="actions">
@@ -311,7 +311,7 @@
                                 
                                 <div class="item-info">
                                   <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product"><?php echo $row_dsach_loai1['Ten_SP'];?></a> </div>
+                                    <div class="item-title"><a href="product_detail.php?id_sp=<?php echo $row_dsach_loai1['idSP'];?>" title="Sample Product"><?php echo $row_dsach_loai1['Ten_SP'];?></a> </div>
                                     <div class="item-content">
                                       <div class="rating">
                                         <div class="ratings">
@@ -364,7 +364,7 @@
           <div class="item">
             <div class="item-inner">
               <div class="item-img">
-                <div class="item-img-info"> <a class="product-image" title="Sample Product" href="product_detail.php"> <img alt="Sample Product" src="products-images/<?php echo $row_dsach_loai2['Hinh1'];?>"></a>
+                <div class="item-img-info"> <a class="product-image" title="Sample Product" href="product_detail.php?id_sp=<?php echo $row_dsach_loai2['idSP'];?>"> <img alt="Sample Product" src="products-images/<?php echo $row_dsach_loai2['Hinh1'];?>"></a>
                   <div class="item-box-hover">
                     <div class="box-inner">
                       <div class="actions">
@@ -379,7 +379,7 @@
               </div>
               <div class="item-info">
                 <div class="info-inner">
-                  <div class="item-title"> <a title="Sample Product" href="product_detail.php"> <?php echo $row_dsach_loai2['Ten_SP'];?> </a> </div>
+                  <div class="item-title"> <a title="Sample Product" href="product_detail.php?id_sp=<?php echo $row_dsach_loai2['idSP'];?>"> <?php echo $row_dsach_loai2['Ten_SP'];?> </a> </div>
                   <div class="item-content">
                     <div class="rating">
                       <div class="ratings">
@@ -436,163 +436,6 @@
                       <div class="magik-pdt-content wide-5">
                         <div class="pdt-content is-loaded pdt_best_sales tab-content-actived">
                           <ul class="pdt-list products-grid-home zoomOut play">
-
-                            <!-- <li class="item item-animate wide-first">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua1.jpg" alt="Sample Product"></a>
-                                    <div class="new-label new-top-left">New</div>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:80%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box"><span class="regular-price"><span class="price">$125.00</span> </span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-
-                            <li class="item item-animate">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua2.jpg" alt="Sample Product"></a>
-                                    <div class="sale-label sale-top-left">Sale</div>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:40%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box">
-                                          <p class="old-price"><span class="price-label">Regular Price:</span> <span class="price">$100.00 </span> </p>
-                                          <p class="special-price"><span class="price-label">Special Price</span> <span class="price">$90.00 </span> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class="item item-animate">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua3.jpg" alt="Sample Product"></a>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box">
-                                          <p class="old-price"><span class="price-label">Regular Price:</span> <span class="price">$100.00 </span> </p>
-                                          <p class="special-price"><span class="price-label">Special Price</span> <span class="price">$90.00 </span> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class="item last item-animate">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua4.jpg" alt="Sample Product"></a>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:100%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box">
-                                          <p class="old-price"><span class="price-label">Regular Price:</span> <span class="price">$100.00 </span> </p>
-                                          <p class="special-price"><span class="price-label">Special Price</span> <span class="price">$90.00 </span> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li> -->
                             <?php
                               $results_dsach_loai3 = mysqli_query($conn, 'SELECT * FROM `sanpham` WHERE id_Loai=2');
                               while(($row_dsach_loai3 = mysqli_fetch_assoc($results_dsach_loai3))!=NULL){
@@ -600,7 +443,7 @@
                             <li class="item item-animate  wide-first">
                               <div class="item-inner">
                                 <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/<?php echo $row_dsach_loai3['Hinh1'];?>" alt="Sample Product"></a>
+                                  <div class="item-img-info"><a href="product_detail.php?id_sp=<?php echo $row_dsach_loai3['idSP'];?>" title="Sample Product" class="product-image"><img src="products-images/<?php echo $row_dsach_loai3['Hinh1'];?>" alt="Sample Product"></a>
                                     <div class="item-box-hover">
                                       <div class="box-inner">
                                         <div class="actions">
@@ -615,7 +458,7 @@
                                 </div>
                                 <div class="item-info">
                                   <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product"><?php echo $row_dsach_loai3['Ten_SP'];?></a> </div>
+                                    <div class="item-title"><a href="product_detail.php?id_sp=<?php echo $row_dsach_loai3['idSP'];?>" title="Sample Product"><?php echo $row_dsach_loai3['Ten_SP'];?></a> </div>
                                     <div class="item-content">
                                       <div class="rating">
                                         <div class="ratings">
@@ -636,121 +479,6 @@
                               </div>
                             </li>
                               <?php } ?>
-                            <!-- <li class="item item-animate">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua6.jpg" alt="Sample Product"></a>
-                                    <div class="new-label new-top-left">New</div>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:80%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box"><span class="regular-price"><span class="price">$125.00</span> </span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class="item item-animate">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua7.jpg" alt="Sample Product"></a>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:40%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box">
-                                          <p class="old-price"><span class="price-label">Regular Price:</span> <span class="price">$100.00 </span> </p>
-                                          <p class="special-price"><span class="price-label">Special Price</span> <span class="price">$90.00 </span> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li>
-                            <li class="item item-animate">
-                              <div class="item-inner">
-                                <div class="item-img">
-                                  <div class="item-img-info"><a href="product_detail.php" title="Sample Product" class="product-image"><img src="products-images/Hopqua8.jpg" alt="Sample Product"></a>
-                                    <div class="item-box-hover">
-                                      <div class="box-inner">
-                                        <div class="actions">
-                                          <div class="add_cart">
-                                            <button class="button btn-cart" type="button"><span>Thêm vào Giỏ Hàng</span></button>
-                                          </div>
-                                          <div class="product-detail-bnt"><a href="quick_view.php" class="button detail-bnt"><span>Quick View</span></a></div>
-                                          <span class="add-to-links"><a href="wishlist.php" class="link-wishlist" title="Add to Wishlist"><span>Add to Wishlist</span></a> <a href="compare.php" class="link-compare add_to_compare" title="Add to Compare"><span>Add to Compare</span></a></span> </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="item-info">
-                                  <div class="info-inner">
-                                    <div class="item-title"><a href="product_detail.php" title="Sample Product">Sample Product</a> </div>
-                                    <div class="item-content">
-                                      <div class="rating">
-                                        <div class="ratings">
-                                          <div class="rating-box">
-                                            <div class="rating" style="width:0%"></div>
-                                          </div>
-                                          <p class="rating-links"><a href="#">1 Review(s)</a> <span class="separator">|</span> <a href="#">Add Review</a> </p>
-                                        </div>
-                                      </div>
-                                      <div class="item-price">
-                                        <div class="price-box">
-                                          <p class="old-price"><span class="price-label">Regular Price:</span> <span class="price">$100.00 </span> </p>
-                                          <p class="special-price"><span class="price-label">Special Price</span> <span class="price">$90.00 </span> </p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </li> -->
                           </ul>
                         </div>
                         
@@ -784,7 +512,7 @@
           <div class="item">
             <div class="item-inner">
               <div class="item-img">
-                <div class="item-img-info"> <a class="product-image" title="Sample Product" href="product_detail.php"> <img alt="Sample Product" src="products-images/<?php echo $row_dsach_loai4['Hinh1'];?>"></a>
+                <div class="item-img-info"> <a class="product-image" title="Sample Product" href="product_detail.php?id_sp=<?php echo $row_dsach_loai4['idSP'];?>"> <img alt="Sample Product" src="products-images/<?php echo $row_dsach_loai4['Hinh1'];?>"></a>
                   <div class="item-box-hover">
                     <div class="box-inner">
                       <div class="actions">
@@ -799,7 +527,7 @@
               </div>
               <div class="item-info">
                 <div class="info-inner">
-                  <div class="item-title"> <a title="Sample Product" href="product_detail.php"> <?php echo $row_dsach_loai4['Ten_SP'];?> </a> </div>
+                  <div class="item-title"> <a title="Sample Product" href="product_detail.php?id_sp=<?php echo $row_dsach_loai4['idSP'];?>"> <?php echo $row_dsach_loai4['Ten_SP'];?> </a> </div>
                   <div class="item-content">
                     <div class="rating">
                       <div class="ratings">
